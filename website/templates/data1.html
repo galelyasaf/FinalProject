@@ -1,0 +1,34 @@
+{% extends "base.html" %} {% block title %}Data{% endblock %}
+{% block content %}
+
+<h1 class="pt-5 pb-2">Data</h1>
+
+
+<table class="table">
+    <tr>   
+        <th>Set</th>
+        <th>weight</th>
+        <th>rpe</th>
+        <th>date</th>
+        <th>id</th>
+
+      
+    </tr>
+
+    <!-- here is a for-loop to give us all the socks -->
+    {% for data in checkdata %}
+    <tr>
+        <td>{{ data.set_num}}</td>
+        <td>{{ data.Weight}}kg</td>
+        <td>{{ data.RPE }}</td>  
+        <td>{{ data.date}}</td>
+        <td>{{ data.user_id}}</td>
+
+       
+    </tr>
+    {% endfor %}
+</table>
+
+
+
+{% endblock %}
