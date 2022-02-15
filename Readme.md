@@ -2,7 +2,7 @@
 BeefinApp is a fitness website designed to give trainees easy to use personalized workout templates to keep track of progress and BEEF UP!
 
 ## How to start?
-1. download the website folder and run it on local host
+1. download all content and use main.py to run the website on local host
 2. Sign up to creat your username and password
 3. You can use the homepage to add notes and reminders
 4. To start a program and add data, go to Strength Program in the navigation bar and choose a week, day, and exercise to get a form of sets. the inputs you type in and submit will redirect you to a table with the database of the inputs you have submited over time. 
